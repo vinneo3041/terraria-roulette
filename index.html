@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Terraria Roulette</h1>
+   
+    <div class="roleta-container">
+      <div class="ponteiro"></div>
+      <canvas id="roleta" width="360" height="360"></canvas>
+      <div class="centro"></div>
+    </div>
+   
+    <div id="resultado">Kris clique em girar</div>
+   
+    <button id="girarBtn">Girar 🎲</button>
+   
+    <div class="config">
+      <label class="itens2" for="itens">Itens (um por linha):</label>
+      <textarea id="itens">
+Pizza
+Hambúrguer 
+Sushi 
+Massa
+Churrasco
+Salada
+    </textarea>      
+      <button id="atualizarBtn">Atualizar roleta</button>
+    </div>
+
+<script src="script.js"></script>
+  </body>
+</html>
